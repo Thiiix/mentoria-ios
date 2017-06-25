@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51E320C143B46FF16F035C27 /* Pods_ProjetoMentoria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A782A1490FAC32E5B9CC86D0 /* Pods_ProjetoMentoria.framework */; };
+		521C84CB6EAAFCF05AB12773 /* Pods_ProjetoMentoriaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9B50BB1D1DEF20ED733FE4 /* Pods_ProjetoMentoriaUITests.framework */; };
 		C0D701E81EFFF10900CA149C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D701E71EFFF10900CA149C /* AppDelegate.swift */; };
 		C0D701EA1EFFF10900CA149C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D701E91EFFF10900CA149C /* ViewController.swift */; };
 		C0D701ED1EFFF10900CA149C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D701EB1EFFF10900CA149C /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		C0D701F21EFFF10900CA149C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D701F01EFFF10900CA149C /* LaunchScreen.storyboard */; };
 		C0D701FD1EFFF10900CA149C /* ProjetoMentoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D701FC1EFFF10900CA149C /* ProjetoMentoriaTests.swift */; };
 		C0D702081EFFF10900CA149C /* ProjetoMentoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D702071EFFF10900CA149C /* ProjetoMentoriaUITests.swift */; };
+		C179DB49C5B4FC8314178CD6 /* Pods_ProjetoMentoriaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39107DE8B1BA9142019877B /* Pods_ProjetoMentoriaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		083CB8B3CA8BD4622978E234 /* Pods-ProjetoMentoria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoMentoria.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjetoMentoria/Pods-ProjetoMentoria.debug.xcconfig"; sourceTree = "<group>"; };
+		3B9B50BB1D1DEF20ED733FE4 /* Pods_ProjetoMentoriaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjetoMentoriaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FF62F2A9940F1C3D7ACBFB /* Pods-ProjetoMentoriaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoMentoriaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjetoMentoriaUITests/Pods-ProjetoMentoriaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F06113CB4231F5F660ACDC9 /* Pods-ProjetoMentoriaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoMentoriaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjetoMentoriaTests/Pods-ProjetoMentoriaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9416AEF33FE631D072BD3A90 /* Pods-ProjetoMentoriaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoMentoriaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjetoMentoriaTests/Pods-ProjetoMentoriaTests.release.xcconfig"; sourceTree = "<group>"; };
+		A782A1490FAC32E5B9CC86D0 /* Pods_ProjetoMentoria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjetoMentoria.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D701E41EFFF10900CA149C /* ProjetoMentoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetoMentoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D701E71EFFF10900CA149C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0D701E91EFFF10900CA149C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		C0D702031EFFF10900CA149C /* ProjetoMentoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjetoMentoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D702071EFFF10900CA149C /* ProjetoMentoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjetoMentoriaUITests.swift; sourceTree = "<group>"; };
 		C0D702091EFFF10900CA149C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39107DE8B1BA9142019877B /* Pods_ProjetoMentoriaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjetoMentoriaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E7935C45A794CDA7E44FE0 /* Pods-ProjetoMentoria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoMentoria.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjetoMentoria/Pods-ProjetoMentoria.release.xcconfig"; sourceTree = "<group>"; };
+		EC9A627A86C51618D4411A9D /* Pods-ProjetoMentoriaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoMentoriaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjetoMentoriaUITests/Pods-ProjetoMentoriaUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51E320C143B46FF16F035C27 /* Pods_ProjetoMentoria.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C179DB49C5B4FC8314178CD6 /* Pods_ProjetoMentoriaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521C84CB6EAAFCF05AB12773 /* Pods_ProjetoMentoriaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16A93C90394A55A5FAD944D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A782A1490FAC32E5B9CC86D0 /* Pods_ProjetoMentoria.framework */,
+				C39107DE8B1BA9142019877B /* Pods_ProjetoMentoriaTests.framework */,
+				3B9B50BB1D1DEF20ED733FE4 /* Pods_ProjetoMentoriaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C0D701DB1EFFF10900CA149C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				C0D701FB1EFFF10900CA149C /* ProjetoMentoriaTests */,
 				C0D702061EFFF10900CA149C /* ProjetoMentoriaUITests */,
 				C0D701E51EFFF10900CA149C /* Products */,
+				DE388FC426D641C68985D927 /* Pods */,
+				16A93C90394A55A5FAD944D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = ProjetoMentoriaUITests;
 			sourceTree = "<group>";
 		};
+		DE388FC426D641C68985D927 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				083CB8B3CA8BD4622978E234 /* Pods-ProjetoMentoria.debug.xcconfig */,
+				D8E7935C45A794CDA7E44FE0 /* Pods-ProjetoMentoria.release.xcconfig */,
+				6F06113CB4231F5F660ACDC9 /* Pods-ProjetoMentoriaTests.debug.xcconfig */,
+				9416AEF33FE631D072BD3A90 /* Pods-ProjetoMentoriaTests.release.xcconfig */,
+				45FF62F2A9940F1C3D7ACBFB /* Pods-ProjetoMentoriaUITests.debug.xcconfig */,
+				EC9A627A86C51618D4411A9D /* Pods-ProjetoMentoriaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0D7020C1EFFF10900CA149C /* Build configuration list for PBXNativeTarget "ProjetoMentoria" */;
 			buildPhases = (
+				5544ACE1F4325D08B4D701F6 /* [CP] Check Pods Manifest.lock */,
 				C0D701E01EFFF10900CA149C /* Sources */,
 				C0D701E11EFFF10900CA149C /* Frameworks */,
 				C0D701E21EFFF10900CA149C /* Resources */,
+				71C243C2C202BD38CAB4833C /* [CP] Embed Pods Frameworks */,
+				0779C0039EAD8ED1997CA55D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0D7020F1EFFF10900CA149C /* Build configuration list for PBXNativeTarget "ProjetoMentoriaTests" */;
 			buildPhases = (
+				A767C5CE7086DA265141560D /* [CP] Check Pods Manifest.lock */,
 				C0D701F41EFFF10900CA149C /* Sources */,
 				C0D701F51EFFF10900CA149C /* Frameworks */,
 				C0D701F61EFFF10900CA149C /* Resources */,
+				EAFC9AA4A7C25B7F8AEB09C5 /* [CP] Embed Pods Frameworks */,
+				436966BEA322ABD16ABE11B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0D702121EFFF10900CA149C /* Build configuration list for PBXNativeTarget "ProjetoMentoriaUITests" */;
 			buildPhases = (
+				7B4E149212E60EC7A7C1829B /* [CP] Check Pods Manifest.lock */,
 				C0D701FF1EFFF10900CA149C /* Sources */,
 				C0D702001EFFF10900CA149C /* Frameworks */,
 				C0D702011EFFF10900CA149C /* Resources */,
+				9C0FE7EC360A02C98B864FCE /* [CP] Embed Pods Frameworks */,
+				08A152224713CEFB8918FF10 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0779C0039EAD8ED1997CA55D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjetoMentoria/Pods-ProjetoMentoria-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08A152224713CEFB8918FF10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjetoMentoriaUITests/Pods-ProjetoMentoriaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		436966BEA322ABD16ABE11B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjetoMentoriaTests/Pods-ProjetoMentoriaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5544ACE1F4325D08B4D701F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		71C243C2C202BD38CAB4833C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjetoMentoria/Pods-ProjetoMentoria-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B4E149212E60EC7A7C1829B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C0FE7EC360A02C98B864FCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjetoMentoriaUITests/Pods-ProjetoMentoriaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A767C5CE7086DA265141560D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAFC9AA4A7C25B7F8AEB09C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjetoMentoriaTests/Pods-ProjetoMentoriaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C0D701E01EFFF10900CA149C /* Sources */ = {
@@ -413,6 +600,7 @@
 		};
 		C0D7020D1EFFF10900CA149C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 083CB8B3CA8BD4622978E234 /* Pods-ProjetoMentoria.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N755HFEA94;
@@ -426,6 +614,7 @@
 		};
 		C0D7020E1EFFF10900CA149C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8E7935C45A794CDA7E44FE0 /* Pods-ProjetoMentoria.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N755HFEA94;
@@ -439,6 +628,7 @@
 		};
 		C0D702101EFFF10900CA149C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F06113CB4231F5F660ACDC9 /* Pods-ProjetoMentoriaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +644,7 @@
 		};
 		C0D702111EFFF10900CA149C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9416AEF33FE631D072BD3A90 /* Pods-ProjetoMentoriaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +660,7 @@
 		};
 		C0D702131EFFF10900CA149C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45FF62F2A9940F1C3D7ACBFB /* Pods-ProjetoMentoriaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = N755HFEA94;
@@ -483,6 +675,7 @@
 		};
 		C0D702141EFFF10900CA149C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC9A627A86C51618D4411A9D /* Pods-ProjetoMentoriaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = N755HFEA94;
